@@ -1,0 +1,141 @@
+/* // extra-Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 320px) and (max-width: 575px) { 
+    
+
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767px)  {
+    .navbar {
+        text-align: center !important;
+    }
+    .banner_part .carousel-indicators {
+        bottom: -15px !important;
+    }
+    .banner_part h1, p, button{
+        position: absolute !important;
+        top: 100px
+    }
+    .carousel-item{
+        position: relative;
+    }
+    .offer_icon a {
+        font-size: 20px !important;
+    }
+    .offer_content h5{
+        font-size: 18px;
+    }
+    .who_are_we {
+        padding: 80px 0px 80px 0px !important;
+    }
+    .gly_main ul li .btn_flt {
+        padding: 2px 15px !important;
+    }
+    .gly_main ul {
+        margin-bottom: 50px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    
+    }
+    .gly_main ul li {
+        float: left;
+        margin-left: 10px;
+    }
+    .test_content {
+        font-size: 12px !important;
+    
+    }
+    .gly_main{
+        
+    }
+    .gly_main .container-fluid {
+        overflow-wrap: initial !important;
+        flex-wrap: wrap !important;
+        contain: strict !important;
+    }
+    .btn_mail {
+        padding: 4px 7px !important;
+    }
+    .news_letter .emails {
+        width: 170px !important;
+    }
+    .mt_my{
+        margin-top: 20px !important;
+    }
+    
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991px)  { 
+    .banner_part .carousel-indicators {
+        bottom: -6px !important;
+    }
+    .offer_content h5{
+        font-size: 16px;
+    }
+    .offer_content p {
+        font-size: 12px;
+    }
+    .offer_icon a {
+        font-size: 20px !important;
+    }
+    .who_are_we {
+        padding: 80px 20px 80px 20px !important;
+    }
+    .gly_main ul li .btn_flt {
+        padding: 2px 9px !important;
+        font-size: 13.88px !important;
+    }
+    .gly_main ul li {
+        float: left;
+        margin-left: 2px !important;
+    }
+    .gly_main ul {
+        margin-bottom: 50px;
+        margin-left: 40%;
+        transform: translateX(-50%);
+    
+    }
+    .menu_part ul li {
+        padding: 0px 5px !important;
+    }
+    .menu_part ul li a {
+        font-size: 14px !important;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199px)  { 
+    .who_are_we {
+        padding: 80px 30px 80px 40px !important;
+    }
+    .gly_main ul li .btn_flt {
+        padding: 2px 15px !important;
+        font-size: 13.88px !important;
+    }
+    .banner_part .carousel-indicators {
+        bottom: -8px !important;
+    }
+
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) { 
+    
+    
+ }
+
+
+
+
+
+
+
+
+
